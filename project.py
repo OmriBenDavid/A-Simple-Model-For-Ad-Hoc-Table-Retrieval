@@ -148,6 +148,6 @@ def TableRetriever(indir, query_path):
         results.close()
         
 
-#TableIndexer("tables_redi2_1","index/")
+TableIndexer("tables_redi2_1","index/")
 
 TableRetriever("index/","queries.txt")
